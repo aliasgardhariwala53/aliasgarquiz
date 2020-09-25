@@ -1,0 +1,151 @@
+
+        body{
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+       }
+       .firstpage{
+           display: flex;
+           justify-content: center;
+           height: 100vh;
+           align-items: center;
+           background-color:#240f01;
+
+       }
+       .content{
+          
+           width: 400px;
+       }
+       .letsplay{
+           
+           color: chartreuse;
+          text-align: center;
+          
+          margin-bottom: 50px;
+          font-size:50px;
+          
+       }
+       .startform input
+       {
+           display: block;
+           width: 100%;
+           margin-bottom: 20px;
+           border-radius: 20px;
+           border:none;
+           height: 40px;
+           text-align: center;
+           outline: transparent;
+           font-size: 200%;
+       }
+       .startform button
+       {
+           display: block;
+           width: 50%;
+           border-radius: 20px;
+           border:none;
+           margin: 10px auto;
+           height: 30px;
+           font-size: 150%;
+           outline: none;
+           
+           
+       }
+       .startform button:hover{
+           background-color:chartreuse;
+           border: none;
+           color: #240f01;
+           
+       }
+       .startstyle:hover{
+           outline: none;
+       }
+       .ques{
+           display: grid;
+           grid-template-rows: 70px auto;
+           width: 1000px;
+           height: 500px;
+           outline: none;
+          
+           
+       }
+       .quesheader{
+           display: flex;
+        background-color: chartreuse;
+         border-top-left-radius: 2vh;
+         border-top-right-radius: 2vh;
+         justify-content: space-between;
+         box-shadow:20px 20px 20px 1px rgb(104, 179, 30) ;
+         
+
+        }
+        
+        .quesheader{
+            display: flex;
+            align-items: center;
+            padding:20px;
+        }
+        .questime{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            
+            
+        }
+        .quesbody{
+                background-color:rgb(22, 65, 68);
+                border-bottom-left-radius: 2vh;
+                border-bottom-right-radius: 2vh;
+                color: chartreuse;
+           box-shadow:20px 20px 20px 1px rgb(32, 97, 97);
+                
+            } 
+            .quesbody h2{
+                padding: 40px;
+                
+            }
+            
+            .option{
+                list-style-type: none;
+                color: rgb(17, 56, 56);
+            font-size: 120%;
+            margin: 20px;
+            border-radius: 30px;
+            background-color: rgb(61, 221, 221);
+            padding: 10px 20px;
+            width: 350px;
+        }
+       
+        .active,.option:hover{
+            background-color:chartreuse;
+            transition: 0.1s ease;
+            cursor: pointer;
+            
+
+        }
+        .option:active{
+            background-color: rgb(209, 252, 167) ;
+        }
+        .btn{
+            background-color: chartreuse;
+            margin: 1px 30px 15px 15px;
+            border-radius: 30px;
+            outline: none;
+            border-color: transparent;
+            padding: 10px 30px;
+            float: right;
+            font-size: 120%;
+            
+        }
+        .btn:hover{
+            background-color: cyan;
+            transition: 0.1s ease;
+            cursor: pointer;
+        }
+        .userend,
+        .usertime,
+        .userpoints{
+            font-family: sans-serif;
+            text-align: center;
+            color: chartreuse;
+        }
+        
+    
+
