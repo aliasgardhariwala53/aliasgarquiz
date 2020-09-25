@@ -1,6 +1,7 @@
 
         body{
-            font-family:Verdana, Geneva, Tahoma, sans-serif
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+                background-color:#240f01;
        }
        .firstpage{
            display: flex;
